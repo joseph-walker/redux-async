@@ -1,6 +1,6 @@
 # A Comparison of Redux Async Libraries
 
-## Foreword
+###  Foreword
 You can find the code for this exercize at [this GitHub repository](https://github.com/joseph-walker/redux-async) -- I would encourage you to take a look at each implemenation as I go over each library. I'll post some code snippets along the way, but not the entire application code for each sample so as not to blow out the article's length.
 
 This article assumes at least a basic familiarity with React / Redux and its parlance; components, action creators, actions, reducers and so on.
@@ -87,6 +87,8 @@ store.subscribe(renderApp);
 ```
 
 A wrapper component will connect our counter to the Redux state. I chose not to use `react-redux` in this example because it's not really needed, and would just get in the way of analyzing the real differences between our async libraries.
+
+## The Libraries
 
 That's really the only setup we need, so let's get started...
 
