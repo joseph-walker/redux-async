@@ -25,8 +25,6 @@ Luckily, Redux has the ability to augment its functionality using community-crea
 
 A few of these libraries have floated to the top -- Redux-Thunk, Redux-Saga, and Redux-Loop -- and in this article we'll go through and experiment with each of them to analyze the strengths and weaknesses of each.
 
----
-
 ## The Setup
 
 I'll be going over `redux-thunk`, `redux-loop`, and `redux-saga` in that order. I'll be using them to control a React application.
